@@ -17,7 +17,7 @@ body {
 
 /* button style*/
 .btn{
-    padding: 12px;
+    padding: 12px; /*how thick button is*/
     margin: 20px 0;
     background-color: #000000 ; /* Button background color */
     color: #FFF; /* Button text color */
@@ -26,7 +26,7 @@ body {
     font-size: 1em;
     text-align: center;
     display: block;
-    width: 100%;
+    width: 100%; /*for button length . w/o it the button is small*/
     
 }
 
