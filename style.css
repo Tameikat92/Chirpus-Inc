@@ -62,7 +62,7 @@ footer{
     
 }
 
-/* Footer title */
+/* Footer title for chirus inc. */
 footer p {
     margin: 0; /* Remove default margin */
 }
@@ -70,18 +70,17 @@ footer p {
 /* Footer links */
 .navfooter .nav-list {
     display: flex; /* Use flexbox for horizontal list items */
-    list-style-type: none; /* Remove bullets */
+    list-style-type: none; /* no bullets */
     padding: 0; /* Remove padding on the <ul> */
     margin: 0; /* Remove margin on the <ul> */
 }
 
-/*links in footer*/
+/*links display in footer*/
 .navfooter li {
    
     margin-bottom: 0.5em; /*Space between footer list items */ 
     display: flex;
-    display: inline;
-    
+    display: inline; 
 }
 /* for my links*/
 .nav-list a {
