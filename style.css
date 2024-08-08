@@ -1,0 +1,33 @@
+
+.body {
+    background-color: #f9fafc;
+
+}
+
+.btn{
+    padding: 12px;
+    border-radius: 50px;
+    border-radius: 22px;
+    background-color: #000000 ; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    cursor: pointer;
+}
+
+.nav-list {
+    list-style-type: none; /* Get rid of the bullets */
+    padding: 0; /* Remove padding on the <ul> */
+}
+.nav-list li {
+   
+    margin-right: 10px; /* Optional: Add space between the list items */
+    margin-right: 0.5em; /* Add right margin of 0.5em to the <li>s */
+}
+
+footer{
+    position: fixed;
+    background-color: #eee;
+    
+    padding:  10px;
+    border-top: 10px solid silver;
+}
