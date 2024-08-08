@@ -52,19 +52,33 @@ button.call-to-action{
 footer{
     position: fixed;
     background-color: #ffc6a7;
-    display: block; /*displays horizontally. changed from inline*/
-    padding:  10px 0;
-    text-align: center;
+    display: flex; /*displays footer text horizontally*/
+    justify-content: space-between; /* justify content separated my chirpus inc from my links*/
+    padding:  10px 20;
+    align-items:center; /* Vertically center items */
+    text-align: right;
     bottom: 0;
     width: 100%;
-
     
+}
+
+/* Footer title */
+footer p {
+    margin: 0; /* Remove default margin */
+}
+
+/* Footer links */
+.navfooter .nav-list {
+    display: flex; /* Use flexbox for horizontal list items */
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding on the <ul> */
+    margin: 0; /* Remove margin on the <ul> */
 }
 
 /*links in footer*/
 .navfooter li {
    
-    margin-bottom: 0.5em; /* Added right margin  */
+    margin-bottom: 0.5em; /*Space between footer list items */ 
     display: flex;
     display: inline;
     
