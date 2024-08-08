@@ -25,6 +25,8 @@ body {
     cursor: pointer;
     font-size: 1em;
     text-align: center;
+    display: block;
+    width: 100%;
     
 }
 
@@ -35,6 +37,7 @@ button.hire{
 /*button for call to action*/
 button.call-to-action{
   border-radius: 20px;
+  
 }
 
 .nav-list {
@@ -75,6 +78,7 @@ footer{
 /* Footer title for chirus inc. */
 footer p {
     margin: 0; /* Remove default margin */
+    color: #000; 
 }
 
 /* Footer links */
@@ -94,7 +98,7 @@ footer p {
 }
 /* for my links*/
 .nav-list a {
-    color: #000000; 
+    color: #69696a; 
     text-decoration: none; /* no underline */
     display: inline;
 }
